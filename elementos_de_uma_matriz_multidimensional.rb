@@ -5,5 +5,5 @@ matriz = [
 ]
 
 #Filtrar elementos maiores que 5
-filtrando_matriz = matriz.flatten.select { |num| num > 5}
+filtrando_matriz = matriz = matriz.flatten.select { |num| num > 5}
 puts filtrando_matriz
